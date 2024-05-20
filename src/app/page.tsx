@@ -17,9 +17,9 @@ export default function Home() {
               <p className="mt-3 text-lg text-gray-800 dark:text-neutral-400">
                 At <strong>InnovateIT </strong>, we turn your tech dreams into
                 reality with cutting-edge solutions, innovative strategies, and
-                a passionate team dedicated to your success. Whether you're a
-                startup, a growing business, or an established enterprise, we've
-                got you covered!
+                a passionate team dedicated to your success. Whether you&quot;re
+                a startup, a growing business, or an established enterprise,
+                we&quot;ve got you covered!
               </p>
               {/* Buttons */}
               <div className="mt-7 grid gap-3 w-full sm:inline-flex">
@@ -621,9 +621,9 @@ export default function Home() {
                 Trusted by teams
               </h2>
               <p className="mx-auto mt-6 text-gray-700 dark:text-gray-300 md:w-3/4 lg:w-3/5">
-                A growing team doesn't need to mean growing pains. Privacy, and
-                the right tool for every step of your journey - Jira Software
-                friction - company size.
+                A growing team doesn&quot;t need to mean growing pains. Privacy,
+                and the right tool for every step of your journey - Jira
+                Software friction - company size.
               </p>
             </div>
             <div className="mt-12 grid gap-8 md:grid-cols-2">
@@ -636,8 +636,8 @@ export default function Home() {
                     alt="microsoft"
                   />
                   <p className="text-gray-600 dark:text-gray-300 md:text-lg lg:text-xl">
-                    <span className="font-serif">"</span> Lorem ipsum dolor sit
-                    amet consectetur adipisicing elit. Quaerat repellat
+                    <span className="font-serif">&quot;</span> Lorem ipsum dolor
+                    sit amet consectetur adipisicing elit. Quaerat repellat
                     perspiciatis excepturi est. Non ipsum iusto aliquam
                     consequatur repellat provident, omnis ut, sapiente
                     voluptates veritatis cum deleniti repudiandae ad doloribus.{" "}
@@ -646,7 +646,7 @@ export default function Home() {
                     Esse, sint sit aut ducimus ea ipsam velit saepe earum
                     dolorem, dignissimos minima voluptate quo accusamus
                     corporis, quaerat beatae aliquid. Impedit, accusamus.{" "}
-                    <span className="font-serif">"</span>
+                    <span className="font-serif">&quot;</span>
                   </p>
                   <div className="flex items-center gap-3">
                     <img
@@ -678,11 +678,11 @@ export default function Home() {
                   height=""
                 />
                 <p className="text-gray-600 dark:text-gray-300">
-                  <span className="font-serif">"</span>Sit amet consectetur
+                  <span className="font-serif">&quot;</span>Sit amet consectetur
                   adipisicing elit. Quaerat repellat perspiciatis excepturi est.
                   Provident, omnis ut, sapiente veritatis cum deleniti
                   repudiandae ad doloribus.{" "}
-                  <span className="font-serif">"</span>
+                  <span className="font-serif">&quot;</span>
                 </p>
                 <div className="flex items-center gap-3 text-left">
                   <img
@@ -711,11 +711,11 @@ export default function Home() {
                   alt="ge"
                 />
                 <p className="text-gray-600 dark:text-gray-300">
-                  <span className="font-serif">"</span>Sit amet consectetur
+                  <span className="font-serif">&quot;</span>Sit amet consectetur
                   adipisicing elit. Quaerat repellat perspiciatis excepturi est.
                   Provident, omnis ut, sapiente veritatis cum deleniti
                   repudiandae ad doloribus.{" "}
-                  <span className="font-serif">"</span>
+                  <span className="font-serif">&quot;</span>
                 </p>
                 <div className="flex items-center gap-3 text-left">
                   <img

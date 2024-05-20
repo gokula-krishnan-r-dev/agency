@@ -10,7 +10,7 @@ const HowitWorks = () => {
               For growing teams and organizations
             </h2>
             <p className="mx-auto mt-6 text-gray-700 dark:text-gray-300 md:w-3/4 lg:w-3/5">
-              A growing team doesn't need to mean growing pains. Privacy, and
+              A growing team doesnt need to mean growing pains. Privacy, and
               the right tool for every step of your journey - Jira Software
               friction - company size.
             </p>
