@@ -592,15 +592,24 @@ export default function Home() {
                   Development is carried out by passionate developers
                 </h2>
                 <p className="mt-8 text-gray-600 dark:text-gray-300">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum
-                  omnis voluptatem accusantium nemo perspiciatis delectus atque
-                  autem! repellat expedita consequatur! Officiis id consequatur
-                  atque doloremque!
+                  Passion is often the driving force behind great development
+                  work. It's what keeps developers motivated to tackle
+                  challenges, explore new technologies, and create innovative
+                  solutions. And it's not just about the technical skills but
+                  also the dedication to continuously learning and improving.
+                  Passion fuels that drive. It's what turns a job into a
+                  fulfilling journey of creation and problem-solving.
                 </p>
                 <p className="mb-12 mt-4 text-gray-600 dark:text-gray-300">
-                  Nobis minus voluptatibus pariatur dignissimos libero quaerat
-                  iure expedita at? Asperiores nemo possimus nesciunt dicta
-                  veniam aspernatur quam mollitia.
+                  Another crucial aspect of development is collaboration. While
+                  individual passion is important, it's often through
+                  collaboration that the most impactful and innovative solutions
+                  are born. Developers working together can leverage diverse
+                  perspectives, share knowledge, and complement each other's
+                  strengths and weaknesses. Whether it's pair programming, code
+                  reviews, or teamwork on larger projects, collaboration fosters
+                  creativity, efficiency, and ultimately, the success of the
+                  development process.
                 </p>
                 <a
                   className="relative flex h-11 w-max items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:bg-primary before:transition-transform before:duration-300 active:duration-75 active:before:scale-95 dark:before:bg-primaryLight"

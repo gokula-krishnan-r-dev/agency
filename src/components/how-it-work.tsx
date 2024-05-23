@@ -10,9 +10,9 @@ const HowitWorks = () => {
               For growing teams and organizations
             </h2>
             <p className="mx-auto mt-6 text-gray-700 dark:text-gray-300 md:w-3/4 lg:w-3/5">
-              A growing team doesnt need to mean growing pains. Privacy, and
-              the right tool for every step of your journey - Jira Software
-              friction - company size.
+              A growing team doesnt need to mean growing pains. Privacy, and the
+              right tool for every step of your journey - Jira Software friction
+              - company size.
             </p>
             {/* <div
               role="tablist"
@@ -74,10 +74,16 @@ const HowitWorks = () => {
                       company goals
                     </h3>
                     <p className="mt-8 text-gray-600 dark:text-gray-300">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                      Eum omnis voluptatem accusantium nemo perspiciatis
-                      delectus atque autem! repellat expedita consequatur!
-                      Officiis id consequatur atque doloremque!
+                      Effective cross-team workflow relies heavily on clear
+                      communication channels that ensure alignment with
+                      overarching company goals. Establishing regular meetings,
+                      utilizing project management tools, and maintaining open
+                      lines of communication help teams stay informed about the
+                      broader organizational objectives. By fostering
+                      transparency and clarity in communication, teams can
+                      better understand how their work contributes to the
+                      company's mission and vision, thereby ensuring that every
+                      task performed aligns with overarching goals.
                     </p>
                     <div className="mt-12 space-y-6">
                       <div className="flex items-center gap-6">
