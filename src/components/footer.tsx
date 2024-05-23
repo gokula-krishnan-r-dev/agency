@@ -22,48 +22,25 @@ const Footer = () => {
             role="list"
             className="mt-12 flex flex-wrap items-center justify-center gap-4 py-4 text-gray-600 dark:text-gray-400 sm:gap-8"
           >
-            <li role="listitem">
+            <li>
               <a
-                href="/#home"
-                className="duration-300 hover:text-primary dark:hover:text-white"
+                className="block transition hover:text-primary dark:hover:text-primaryLight md:px-4"
+                href="#contact"
               >
-                Home
+                <span>Contact us</span>
               </a>
             </li>
-            <li role="listitem">
+
+            <li>
               <a
-                href="/#features"
-                className="duration-300 hover:text-primary dark:hover:text-white"
+                className="block transition hover:text-primary dark:hover:text-primaryLight md:px-4"
+                href="#contact"
               >
-                Features
-              </a>
-            </li>
-            <li role="listitem">
-              <a
-                href="/#solution"
-                className="duration-300 hover:text-primary dark:hover:text-white"
-              >
-                Solution
-              </a>
-            </li>
-            <li role="listitem">
-              <a
-                href="/#reviews"
-                className="duration-300 hover:text-primary dark:hover:text-white"
-              >
-                Reviews
-              </a>
-            </li>
-            <li role="listitem">
-              <a
-                href="/#pricing"
-                className="duration-300 hover:text-primary dark:hover:text-white"
-              >
-                Pricing
+                <span>Company</span>
               </a>
             </li>
           </ul>
-          <div className="m-auto mt-4 flex w-max items-center justify-between space-x-4 text-gray-500">
+          {/* <div className="m-auto mt-4 flex w-max items-center justify-between space-x-4 text-gray-500">
             <a
               className="duration-300 hover:text-gray-600 dark:hover:text-white"
               href="https://twitter.com/@tailus_ui"
@@ -112,10 +89,10 @@ const Footer = () => {
                 <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
               </svg>
             </a>
-          </div>
+          </div> */}
           <div className="mt-12 text-center">
             <span className="text-sm tracking-wide text-gray-500">
-              Copyright © tailus 2021 - Present | All rights reserved
+              Copyright © tailus 2024 - Present | All rights reserved
             </span>
           </div>
         </div>

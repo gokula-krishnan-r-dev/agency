@@ -86,39 +86,16 @@ const Header = () => {
                     <li>
                       <a
                         className="block transition hover:text-primary dark:hover:text-primaryLight md:px-4"
-                        href="/pages/solution"
+                        href="#contact"
                       >
-                        <span>Solution</span>
+                        <span>Contact us</span>
                       </a>
                     </li>
+
                     <li>
                       <a
                         className="block transition hover:text-primary dark:hover:text-primaryLight md:px-4"
-                        href="/pages/customers"
-                      >
-                        <span>Customers</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        className="block transition hover:text-primary dark:hover:text-primaryLight md:px-4"
-                        href="/pages/pricing"
-                      >
-                        <span>Pricing</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        className="block transition hover:text-primary dark:hover:text-primaryLight md:px-4"
-                        href="/pages/blog"
-                      >
-                        <span>Blog</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        className="block transition hover:text-primary dark:hover:text-primaryLight md:px-4"
-                        href="/pages/about"
+                        href="#contact"
                       >
                         <span>Company</span>
                       </a>
@@ -127,39 +104,26 @@ const Header = () => {
                 </div>
                 <div className="mt-12 -ml-1 flex w-full flex-col space-y-2 border-primary/10 dark:border-gray-700 sm:flex-row md:w-max lg:mt-0 lg:mr-6 lg:space-y-0 lg:border-l lg:pl-6">
                   <a
-                    className="relative ml-auto flex h-9 w-full items-center justify-center before:absolute before:inset-0 before:rounded-full before:bg-primary before:transition-transform before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-gray-700 dark:before:bg-primaryLight sm:px-4 lg:before:border lg:before:border-gray-200 lg:before:bg-gray-100 lg:dark:before:bg-gray-800"
-                    href="/pages/contact"
+                    className="py-2 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-full border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none"
+                    href="#contact"
                   >
-                    <span className="relative text-sm font-semibold text-white dark:text-gray-900 lg:text-primary lg:dark:text-white">
-                      Get started
-                    </span>
+                    Get started
+                    <svg
+                      className="flex-shrink-0 size-4"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width={24}
+                      height={24}
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth={2}
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="m9 18 6-6-6-6" />
+                    </svg>
                   </a>
                 </div>
-                <button
-                  aria-label="switch theme"
-                  className="switcher group relative hidden h-9 w-9 rounded-full before:absolute before:inset-0 before:rounded-full before:border before:border-gray-200 before:bg-gray-50 before:bg-gradient-to-b before:transition-transform before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-gray-700 dark:before:bg-gray-800 lg:flex"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="transistion relative m-auto hidden h-5 w-5 fill-gray-500 duration-300 group-hover:rotate-180 group-hover:fill-yellow-400 dark:block dark:fill-gray-300"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="transistion relative m-auto h-5 w-5 fill-gray-500 duration-300 group-hover:-rotate-90 group-hover:fill-blue-900 dark:hidden"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                  >
-                    <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
-                  </svg>
-                </button>
               </div>
               <div className="fixed top-3 right-14 z-20 sm:right-24 lg:hidden">
                 <button

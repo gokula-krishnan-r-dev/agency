@@ -25,7 +25,7 @@ export default function Home() {
               <div className="mt-7 grid gap-3 w-full sm:inline-flex">
                 <a
                   className="py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none"
-                  href="#"
+                  href="#contact"
                 >
                   Get started
                   <svg
@@ -45,7 +45,7 @@ export default function Home() {
                 </a>
                 <a
                   className="py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800"
-                  href="#"
+                  href="#contact"
                 >
                   Contact sales team
                 </a>
@@ -580,7 +580,7 @@ export default function Home() {
               <div className="md:5/12 lg:w-6/12">
                 <img
                   className="md:-ml-8 rounded-3xl"
-                  src="https://lh3.googleusercontent.com/proxy/RQKJ_ruzmfA97WKbj6iHADZwtSuxIrV3FYukdSqgwLb6xOMT6ZyqzN0kl-xaNRLZ2qIE3HQ6Np9NvYd9k0BzBdt6s8wwA7Qe7O4"
+                  src="https://cdn.dribbble.com/userupload/14278098/file/original-a26100fdc4feb44dcca064f10eeda9d1.png?resize=1024x768"
                   alt="tailus stats and login components"
                   loading="lazy"
                   width={1779}
@@ -614,7 +614,10 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="mb-32">
+        {/* email */}
+        {/* Name */}
+        {/* Phome number  */}
+        {/* <section className="mb-32">
           <div className="mx-auto px-4 sm:px-12 xl:max-w-6xl xl:px-0">
             <div className="text-center">
               <h2 className="text-3xl font-bold text-gray-800 dark:text-white md:text-4xl xl:text-5xl">
@@ -738,7 +741,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         <Contant />
         {/* End Hero */}
       </div>
