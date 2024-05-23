@@ -34,9 +34,9 @@ const Footer = () => {
             <li>
               <a
                 className="block transition hover:text-primary dark:hover:text-primaryLight md:px-4"
-                href="#contact"
+                href="/portfolio"
               >
-                <span>Company</span>
+                <span>Porfolio</span>
               </a>
             </li>
           </ul>
