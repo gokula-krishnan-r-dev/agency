@@ -104,7 +104,7 @@ export async function POST(request: any) {
 
     const { data, error } = await resend.emails.send({
       from: "Ampire <onboarding@resend.dev>",
-      to: ["gokulakrishnanr812@gmail.com"],
+      to: ["ampireagency01@gmail.com"],
       subject: "New Contact Form Submission",
       html: emailContent,
     });
