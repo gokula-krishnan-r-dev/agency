@@ -86,7 +86,7 @@ const Header = () => {
                     <li>
                       <a
                         className="block transition hover:text-primary dark:hover:text-primaryLight md:px-4"
-                        href="#contact"
+                        href="/start"
                       >
                         <span>Contact us</span>
                       </a>
@@ -105,7 +105,7 @@ const Header = () => {
                 <div className="mt-12 -ml-1 flex w-full flex-col space-y-2 border-primary/10 dark:border-gray-700 sm:flex-row md:w-max lg:mt-0 lg:mr-6 lg:space-y-0 lg:border-l lg:pl-6">
                   <a
                     className="py-2 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-full border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none"
-                    href="#contact"
+                    href="/start"
                   >
                     Get started
                     <svg

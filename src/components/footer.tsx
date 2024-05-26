@@ -25,7 +25,7 @@ const Footer = () => {
             <li>
               <a
                 className="block transition hover:text-primary dark:hover:text-primaryLight md:px-4"
-                href="#contact"
+                href="/start"
               >
                 <span>Contact us</span>
               </a>
@@ -92,7 +92,7 @@ const Footer = () => {
           </div> */}
           <div className="mt-12 text-center">
             <span className="text-sm tracking-wide text-gray-500">
-              Copyright © tailus 2024 - Present | All rights reserved
+              Copyright © ampire 2024 - Present | All rights reserved
             </span>
           </div>
         </div>
