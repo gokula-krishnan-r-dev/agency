@@ -593,20 +593,20 @@ export default function Home() {
                 </h2>
                 <p className="mt-8 text-gray-600 dark:text-gray-300">
                   Passion is often the driving force behind great development
-                  work. It's what keeps developers motivated to tackle
+                  work. Its what keeps developers motivated to tackle
                   challenges, explore new technologies, and create innovative
-                  solutions. And it's not just about the technical skills but
+                  solutions. And its not just about the technical skills but
                   also the dedication to continuously learning and improving.
-                  Passion fuels that drive. It's what turns a job into a
+                  Passion fuels that drive. Its what turns a job into a
                   fulfilling journey of creation and problem-solving.
                 </p>
                 <p className="mb-12 mt-4 text-gray-600 dark:text-gray-300">
                   Another crucial aspect of development is collaboration. While
-                  individual passion is important, it's often through
+                  individual passion is important, its often through
                   collaboration that the most impactful and innovative solutions
                   are born. Developers working together can leverage diverse
-                  perspectives, share knowledge, and complement each other's
-                  strengths and weaknesses. Whether it's pair programming, code
+                  perspectives, share knowledge, and complement each others
+                  strengths and weaknesses. Whether its pair programming, code
                   reviews, or teamwork on larger projects, collaboration fosters
                   creativity, efficiency, and ultimately, the success of the
                   development process.

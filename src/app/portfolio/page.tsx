@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const projects = [
@@ -26,7 +27,7 @@ const projects = [
     name: "RankCraft",
     logo: "/rankcraft.svg",
     description:
-      "RankCraft helps you rank your website based on specific keywords and provides detailed charts and graphs to monitor your progress. With RankCraft, you can analyze your SEO performance, track keyword rankings, and get actionable insights to improve your site's visibility. The platform also offers competitor analysis, backlink tracking, and customizable reports to help you stay ahead in the digital landscape.",
+      "RankCraft helps you rank your website based on specific keywords and provides detailed charts and graphs to monitor your progress. With RankCraft, you can analyze your SEO performance, track keyword rankings, and get actionable insights to improve your sites visibility. The platform also offers competitor analysis, backlink tracking, and customizable reports to help you stay ahead in the digital landscape.",
     link: "https://rankcraft.com",
     linkText: "Visit RankCraft",
   },
@@ -125,17 +126,19 @@ const projects = [
 
 const Page = () => {
   return (
-    <div className="min-h-screen  bg-gray-100">
+    <div className="min-h-screen pb-12  bg-gray-100">
       <div className="pt-44">
-        <div className="max-w-6xl mx-auto p-6 bg-white shadow-lg rounded-3xl">
+        <div className="max-w-6xl mx-auto p-6 bg-white border rounded-3xl">
           <h1 className="text-4xl font-bold text-center mb-12">
             Our Portfolio
           </h1>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {projects.map((project) => (
-              <div
+              <Link
+                target="_blank"
+                href={project.link}
                 key={project.id}
-                className="flex flex-col items-center bg-gray-50 p-6 rounded-3xl shadow-md"
+                className="flex flex-col items-center bg-gray-50 p-6 rounded-3xl border border-gray-200 hover:shadow-lg transition duration-300 ease-in-out"
               >
                 {!project.htmlLogo ? (
                   <img
@@ -150,14 +153,10 @@ const Page = () => {
                 <p className="text-center text-pretty mb-4">
                   {project.description}
                 </p>
-                <a
-                  target="_black"
-                  href={project.link}
-                  className="text-blue-500 hover:underline"
-                >
-                  {project.linkText}
-                </a>
-              </div>
+                <button className="py-2 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-full border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none">
+                  Vist a project
+                </button>
+              </Link>
             ))}
           </div>
         </div>

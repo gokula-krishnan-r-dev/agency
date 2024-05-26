@@ -82,7 +82,7 @@ const HowitWorks = () => {
                       broader organizational objectives. By fostering
                       transparency and clarity in communication, teams can
                       better understand how their work contributes to the
-                      company's mission and vision, thereby ensuring that every
+                      company mission and vision, thereby ensuring that every
                       task performed aligns with overarching goals.
                     </p>
                     <div className="mt-12 space-y-6">
