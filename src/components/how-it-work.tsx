@@ -99,10 +99,14 @@ const HowitWorks = () => {
                         </div>
                         <div className="w-[calc(100%-7.5rem)]">
                           <h4 className="text-lg font-semibold text-gray-800 dark:text-white">
-                            Together as one
+                            Achieve More with Seamless Collaboration
                           </h4>
                           <p className="mt-1 text-gray-600 dark:text-gray-400">
-                            Accusantium nemo perspiciatis delectus atque autem!
+                            Discover the power of unity with our advanced tools
+                            that bring your team together, fostering
+                            unparalleled collaboration and efficiency.
+                            Experience a new level of synergy and accomplish
+                            your goals faster and smarter.
                           </p>
                         </div>
                       </div>
@@ -119,131 +123,13 @@ const HowitWorks = () => {
                         </div>
                         <div className="w-[calc(100%-7.5rem)]">
                           <h4 className="text-lg font-semibold text-gray-800 dark:text-white">
-                            New ideas
+                            Empower Your Business with Cutting-Edge Solutions
                           </h4>
                           <p className="mt-1 text-gray-600 dark:text-gray-400">
-                            Accusalectus atque autem accusantium nemo
-                            perspiciatis delectus atque autem!
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className="panel absolute inset-0 flex flex-col justify-center transition duration-500 invisible opacity-0 scale-90"
-                  id="panel-1"
-                >
-                  <div>
-                    <h3 className="text-2xl font-bold text-gray-900 dark:text-white md:text-3xl">
-                      Make work flow across teams while connecting back to
-                      company goals
-                    </h3>
-                    <p className="mt-8 text-gray-600 dark:text-gray-300">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                      Eum omnis voluptatem accusantium nemo perspiciatis
-                      delectus atque autem! repellat expedita consequatur!
-                      Officiis id consequatur atque doloremque!
-                    </p>
-                    <div className="mt-12 space-y-6">
-                      <div className="flex items-center gap-6">
-                        <div className="flex h-20 w-20 rounded-3xl border border-gray-200 bg-white p-4 dark:border-gray-600/60 dark:bg-gray-900/40">
-                          <img
-                            className="m-auto h-8 w-auto"
-                            src="https://cdn-icons-png.flaticon.com/512/6106/6106288.png"
-                            alt="icon illustration"
-                            loading="lazy"
-                            width={512}
-                            height={512}
-                          />
-                        </div>
-                        <div className="w-[calc(100%-7.5rem)]">
-                          <h4 className="text-lg font-semibold text-gray-800 dark:text-white">
-                            Together as one
-                          </h4>
-                          <p className="mt-1 text-gray-600 dark:text-gray-400">
-                            Accusantium nemo perspiciatis delectus atque autem!
-                          </p>
-                        </div>
-                      </div>
-                      <div className="flex items-center gap-6">
-                        <div className="flex h-20 w-20 rounded-3xl border border-gray-200 bg-white p-4 dark:border-gray-600/60 dark:bg-gray-900/40">
-                          <img
-                            className="m-auto h-8 w-auto"
-                            src="https://cdn-icons-png.flaticon.com/512/2313/2313906.png"
-                            alt="icon illustration"
-                            loading="lazy"
-                            width={512}
-                            height={512}
-                          />
-                        </div>
-                        <div className="w-[calc(100%-7.5rem)]">
-                          <h4 className="text-lg font-semibold text-gray-800 dark:text-white">
-                            New ideas
-                          </h4>
-                          <p className="mt-1 text-gray-600 dark:text-gray-400">
-                            Accusalectus atque autem accusantium nemo
-                            perspiciatis delectus atque autem!
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className="panel absolute inset-0 flex flex-col justify-center transition duration-500 invisible opacity-0 scale-90"
-                  id="panel-2"
-                >
-                  <div>
-                    <h3 className="text-2xl font-bold text-gray-900 dark:text-white md:text-3xl">
-                      Make work flow across teams while connecting back to
-                      company goals
-                    </h3>
-                    <p className="mt-8 text-gray-600 dark:text-gray-300">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                      Eum omnis voluptatem accusantium nemo perspiciatis
-                      delectus atque autem! repellat expedita consequatur!
-                      Officiis id consequatur atque doloremque!
-                    </p>
-                    <div className="mt-12 space-y-6">
-                      <div className="flex items-center gap-6">
-                        <div className="flex h-20 w-20 rounded-3xl border border-gray-200 bg-white p-4 dark:border-gray-600/60 dark:bg-gray-900/40">
-                          <img
-                            className="m-auto h-8 w-auto"
-                            src="https://cdn-icons-png.flaticon.com/512/3340/3340200.png"
-                            alt="icon illustration"
-                            loading="lazy"
-                            width={512}
-                            height={512}
-                          />
-                        </div>
-                        <div className="w-[calc(100%-7.5rem)]">
-                          <h4 className="text-lg font-semibold text-gray-800 dark:text-white">
-                            Together as one
-                          </h4>
-                          <p className="mt-1 text-gray-600 dark:text-gray-400">
-                            Accusantium nemo perspiciatis delectus atque autem!
-                          </p>
-                        </div>
-                      </div>
-                      <div className="flex items-center gap-6">
-                        <div className="flex h-20 w-20 rounded-3xl border border-gray-200 bg-white p-4 dark:border-gray-600/60 dark:bg-gray-900/40">
-                          <img
-                            className="m-auto h-8 w-auto"
-                            src="https://cdn-icons-png.flaticon.com/512/5405/5405929.png"
-                            alt="icon illustration"
-                            loading="lazy"
-                            width={512}
-                            height={512}
-                          />
-                        </div>
-                        <div className="w-[calc(100%-7.5rem)]">
-                          <h4 className="text-lg font-semibold text-gray-800 dark:text-white">
-                            Growth
-                          </h4>
-                          <p className="mt-1 text-gray-600 dark:text-gray-400">
-                            Accusalectus atque autem accusantium nemo
-                            perspiciatis delectus atque autem!
+                            Unlock the potential of your business with our
+                            innovative IT solutions. Stay ahead of the curve and
+                            turn your groundbreaking ideas into reality with our
+                            expert services tailored to your unique needs.
                           </p>
                         </div>
                       </div>
