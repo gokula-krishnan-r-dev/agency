@@ -10,7 +10,7 @@ const Header = () => {
         >
           <div className="mx-auto px-4 sm:px-12 xl:max-w-6xl xl:px-0">
             <div className="relative flex flex-wrap items-center justify-between gap-6 lg:gap-0 lg:py-4">
-              <div className="relative z-20 flex w-full justify-between md:px-0 lg:w-max">
+              <div className="relative z-20 lg:py-0 py-5 flex w-full justify-between md:px-0 lg:w-max">
                 <a
                   href="/"
                   aria-label="logo"
@@ -57,20 +57,28 @@ const Header = () => {
                     </defs>
                   </svg>
                 </a>
-                <button
-                  aria-label="humburger"
-                  id="hamburger"
-                  className="relative -mr-6 p-6 lg:hidden"
-                >
-                  <div
-                    aria-hidden="true"
-                    className="m-auto h-0.5 w-5 rounded bg-sky-900 transition duration-300 dark:bg-gray-300"
-                  />
-                  <div
-                    aria-hidden="true"
-                    className="m-auto mt-2 h-0.5 w-5 rounded bg-sky-900 transition duration-300 dark:bg-gray-300"
-                  />
-                </button>
+                <div className="flex-col lg:hidden block space-y-2 border-primary/10 dark:border-gray-700 sm:flex-row md:w-max lg:mt-0 lg:mr-6 lg:space-y-0 lg:border-l lg:pl-6">
+                  <a
+                    className="py-2 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-full border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none"
+                    href="/start"
+                  >
+                    Get started
+                    <svg
+                      className="flex-shrink-0 size-4"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width={24}
+                      height={24}
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth={2}
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="m9 18 6-6-6-6" />
+                    </svg>
+                  </a>
+                </div>
               </div>
               <div
                 id="layer"
@@ -125,7 +133,7 @@ const Header = () => {
                   </a>
                 </div>
               </div>
-              <div className="fixed top-3 right-14 z-20 sm:right-24 lg:hidden">
+              {/* <div className="fixed top-3 right-14 z-20 sm:right-24 lg:hidden">
                 <button
                   aria-label="switche theme"
                   className="switcher group relative flex h-9 w-9 rounded-full before:absolute before:inset-0 before:rounded-full before:border before:border-gray-200 before:bg-gray-50 before:bg-gradient-to-b before:transition-transform before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-gray-700 dark:before:bg-gray-800"
@@ -151,7 +159,7 @@ const Header = () => {
                     <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
                   </svg>
                 </button>
-              </div>
+              </div> */}
             </div>
           </div>
         </nav>

@@ -138,20 +138,6 @@ const Page = () => {
             </defs>
           </svg>
         </a>
-        <button
-          aria-label="humburger"
-          id="hamburger"
-          className="relative -mr-6 p-6 lg:hidden"
-        >
-          <div
-            aria-hidden="true"
-            className="m-auto h-0.5 w-5 rounded bg-sky-900 transition duration-300 dark:bg-gray-300"
-          />
-          <div
-            aria-hidden="true"
-            className="m-auto mt-2 h-0.5 w-5 rounded bg-sky-900 transition duration-300 dark:bg-gray-300"
-          />
-        </button>
       </div>
       <div className="flex items-center justify-center">
         {!showResult ? (
