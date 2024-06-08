@@ -114,6 +114,14 @@ const Header = () => {
                     <li>
                       <a
                         className="block transition hover:text-primary dark:hover:text-primaryLight md:px-4"
+                        href="/privacy-policy"
+                      >
+                        <span>Privacy Policy</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        className="block transition hover:text-primary dark:hover:text-primaryLight md:px-4"
                         href="/portfolio"
                       >
                         <span>Portfolio</span>

@@ -70,6 +70,14 @@ const Footer = () => {
                 <span>Porfolio</span>
               </a>
             </li>
+            <li>
+              <a
+                className="block transition hover:text-primary dark:hover:text-primaryLight md:px-4"
+                href="/privacy-policy"
+              >
+                <span>Privacy Policy</span>
+              </a>
+            </li>
           </ul>
           {/* <div className="m-auto mt-4 flex w-max items-center justify-between space-x-4 text-gray-500">
             <a
